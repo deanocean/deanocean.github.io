@@ -36,6 +36,9 @@ a.navbar-item.is-active,
 .navbar-link.is-active {
   background-color: transparent;
 }
+.tag:not(body) {
+  background-color: #ddd;
+}
 .navbar-main .navbar-item {
   padding: 1.25rem 1rem;
 }
