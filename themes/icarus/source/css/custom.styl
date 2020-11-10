@@ -1,0 +1,75 @@
+$custom-color ?= #f3f3f3
+$custom-color-darken ?= desaturate(darken($custom-color,10%), 40%)
+$custom-color-lighten ?= lighten($custom-color,10%)
+$custom-color-linear-darken ?= desaturate(darken($custom-color,6%), 30%)
+$custom-color-linear-lighten ?= lighten($custom-color,4%)
+
+.Neumorphism
+    background-color: $custom-color
+    border-radius: 20px
+    box-shadow:  8px 8px 16px desaturate($custom-color-darken, 40%), -8px -8px 16px $custom-color-lighten
+
+.concave
+    background: linear-gradient(145deg, $custom-color-linear-lighten, $custom-color-linear-darken)
+
+.convex
+    background: linear-gradient(145deg, $custom-color-linear-darken, $custom-color-linear-lighten)
+
+.pressed
+    box-shadow:  inset 8px 8px 16px desaturate($custom-color-darken, 40%), inset -8px -8px 16px $custom-color-lighten
+
+
+html, .navbar, .footer
+    background-color: $custom-color
+
+.card
+    @extends .Neumorphism
+    // @extends .convex
+
+.navbar-main
+    box-shadow: none
+
++tablet()
+    .navbar-menu
+        background-color: $custom-color
+
++mobile()
+    .navbar-menu
+        background-color: $custom-color
+
+a.navbar-item:focus, .navbar-link:focus, a.navbar-item:focus-within, .navbar-link:focus-within, a.navbar-item:hover, .navbar-link:hover, a.navbar-item.is-active, .navbar-link.is-active
+    background-color: transparent
+
+.tag:not(body)
+    background-color #ddd
+
+.navbar-main .navbar-item
+    padding: 1.25rem 1rem
+
+.navbar
+    margin-top 1rem
+
+.section
+    padding: 1rem 1.5rem
+
+.column
+    padding: 1rem
+
+.card + .card, .card + .column-right-shadow
+    margin-top: 2rem
+
+.footer
+    padding-bottom 3rem
+
+.article-licensing
+    @extends .Neumorphism
+    @extends .pressed
+
+.article-more
+    @extends .Neumorphism
+
+.a2a_default_style
+    display flex
+    justify-content: center
+    a
+        padding: 0 4px !important
