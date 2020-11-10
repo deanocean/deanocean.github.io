@@ -1,0 +1,64 @@
+.Neumorphism,
+.card,
+.article-licensing,
+.article-more {
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  box-shadow: 8px 8px 16px #dbdbdb, -8px -8px 16px #f4f4f4;
+}
+.concave {
+  background: linear-gradient(145deg, #f3f3f3, #e4e4e4);
+}
+.convex {
+  background: linear-gradient(145deg, #e4e4e4, #f3f3f3);
+}
+.pressed,
+.article-licensing {
+  box-shadow: inset 8px 8px 16px #dbdbdb, inset -8px -8px 16px #f4f4f4;
+}
+html,
+.navbar,
+.footer {
+  background-color: #f3f3f3;
+}
+.navbar-main {
+  box-shadow: none;
+}
+tablet()
+mobile()
+a.navbar-item:focus,
+.navbar-link:focus,
+a.navbar-item:focus-within,
+.navbar-link:focus-within,
+a.navbar-item:hover,
+.navbar-link:hover,
+a.navbar-item.is-active,
+.navbar-link.is-active {
+  background-color: transparent;
+}
+.navbar-main .navbar-item {
+  padding: 1.25rem 1rem;
+}
+.navbar {
+  margin-top: 1rem;
+}
+.section {
+  padding: 1rem 1.5rem;
+}
+.column {
+  padding: 1rem;
+}
+.card + .card,
+.card + .column-right-shadow {
+  margin-top: 2rem;
+}
+.footer {
+  padding-bottom: 3rem;
+}
+.a2a_default_style {
+  display: flex;
+  justify-content: center;
+}
+.a2a_default_style a {
+  padding: 0 4px !important;
+}
