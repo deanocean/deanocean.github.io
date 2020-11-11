@@ -8,9 +8,9 @@ logo: # /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/favicon.png
     # Web application manifests configuration
-    # https://developer.mozilla.org/en-US/docs/Web/Manifest
+    # https://developer.mozilla.org/en-US/docs/Web/Manifest 
     manifest:
         # Name of the web application (default to the site title)
         name: 
@@ -224,7 +224,7 @@ widgets:
         # Author's current location
         location: Kyoto, Japan
         # URL or path to the avatar image
-        avatar: 'https://i.pinimg.com/280x280_RS/ae/61/26/ae6126a48897d17382a1904ab73464b5.jpg'
+        avatar: 'img/avatar_mucha.png'
         # Whether show the rounded avatar image
         avatar_rounded: true
         # Email address for the Gravatar
