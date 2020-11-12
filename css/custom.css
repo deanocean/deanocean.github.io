@@ -55,6 +55,13 @@ a.navbar-item.is-active,
 .card + .column-right-shadow {
   margin-top: 2rem;
 }
+article.article .content h2 {
+  font-size: 1.4em;
+}
+article.article .content {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
 .footer {
   padding-bottom: 3rem;
 }
