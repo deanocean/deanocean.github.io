@@ -1,0 +1,64 @@
+widgets:
+    # Profile widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        # Author name
+        author: Dean Huang
+        # Author title
+        author_title: Web Designer & Front-end Developer
+        # Author's current location
+        location: Kyoto, Japan
+        # URL or path to the avatar image
+        avatar: 'img/avatar_mucha.png'
+        # Whether show the rounded avatar image
+        avatar_rounded: true
+        # Email address for the Gravatar
+        gravatar: 
+        # URL or path for the follow button
+        follow_link: # 'https://github.com/ppoffice'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/deanocean'
+            Facebook:
+                icon: fab fa-facebook
+                url: 'https://www.facebook.com/profile.php?id=100002335381333'
+            Instagram:
+                icon: fab fa-instagram
+                url: 'https://www.instagram.com/jinding_huang/'
+            Pinterest:
+                icon: fab fa-pinterest
+                url: 'https://www.pinterest.ca/deanocean5656'
+            RSS:
+                icon: fas fa-rss
+                url: /
+    # Table of contents widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: toc
+        # Whether to show the index of each heading
+        index: true
+    # Recent posts widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: recent_posts
+    # Archives widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: archives
+    # Categories widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: categories
+    # Tags widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: tags

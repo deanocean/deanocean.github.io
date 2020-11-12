@@ -22,6 +22,10 @@ $custom-color-linear-lighten ?= lighten($custom-color,4%)
 html, .navbar, .footer
     background-color: $custom-color
 
+// +widescreen()
+//     .container
+//         max-width: 1200px
+
 .card
     @extends .Neumorphism
     // @extends .convex
@@ -41,13 +45,13 @@ a.navbar-item:focus, .navbar-link:focus, a.navbar-item:focus-within, .navbar-lin
     background-color: transparent
 
 .tag:not(body)
-    background-color #ddd
+    background-color: #ddd
 
 .navbar-main .navbar-item
     padding: 1.25rem 1rem
 
 .navbar
-    margin-top 1rem
+    margin-top: 1rem
 
 .section
     padding: 1rem 1.5rem
@@ -58,8 +62,15 @@ a.navbar-item:focus, .navbar-link:focus, a.navbar-item:focus-within, .navbar-lin
 .card + .card, .card + .column-right-shadow
     margin-top: 2rem
 
+article.article .content h2
+    font-size: 1.4em
+
+article.article .content
+    font-size: 1.25rem
+    line-height 1.6
+
 .footer
-    padding-bottom 3rem
+    padding-bottom: 3rem
 
 .article-licensing
     @extends .Neumorphism
