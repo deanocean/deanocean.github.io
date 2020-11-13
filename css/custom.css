@@ -21,6 +21,9 @@ html,
 .footer {
   background-color: #f3f3f3;
 }
+desktop()
+widescreen()
+fullhd()
 .navbar-main {
   box-shadow: none;
 }
@@ -55,12 +58,17 @@ a.navbar-item.is-active,
 .card + .column-right-shadow {
   margin-top: 2rem;
 }
+article.article.card-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 article.article .content h2 {
   font-size: 1.4em;
 }
 article.article .content {
   font-size: 1.25rem;
   line-height: 1.6;
+  margin-bottom: 3rem;
 }
 .footer {
   padding-bottom: 3rem;
