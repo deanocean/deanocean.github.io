@@ -22,9 +22,20 @@ $custom-color-linear-lighten ?= lighten($custom-color,4%)
 html, .navbar, .footer
     background-color: $custom-color
 
-// +widescreen()
-//     .container
-//         max-width: 1200px
++desktop()
+    .is-2-column .container
+        max-width: $desktop
+        width: $desktop
+
++widescreen()
+    .is-2-column .container
+        max-width: $desktop
+        width: $desktop
+
++fullhd()
+    .is-2-column .container
+        max-width: $widescreen
+        width: $widescreen
 
 .card
     @extends .Neumorphism
@@ -62,12 +73,17 @@ a.navbar-item:focus, .navbar-link:focus, a.navbar-item:focus-within, .navbar-lin
 .card + .card, .card + .column-right-shadow
     margin-top: 2rem
 
+article.article.card-content 
+    padding-left: 2rem
+    padding-right: 2rem
+
 article.article .content h2
     font-size: 1.4em
 
 article.article .content
     font-size: 1.25rem
     line-height 1.6
+    margin-bottom 3rem
 
 .footer
     padding-bottom: 3rem
