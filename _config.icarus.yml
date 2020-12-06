@@ -4,7 +4,7 @@ version: 4.0.0
 variant: default
 # Path or URL to the website's logo
 logo: # /img/logo.svg
-    text: Dean 的前端 & 在日工作 紀錄
+    text: Dean 的前端 & 設計部落格
 # Page metadata configurations
 head:
     # URL or path to the website's icon
