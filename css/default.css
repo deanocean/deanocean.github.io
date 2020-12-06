@@ -11736,16 +11736,31 @@ article.article.card-content {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.title {
+  font-weight: bold;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  font-weight: bold;
+}
 article.article .content h2 {
-  font-size: 1.4em;
+  font-size: 1.45em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #ddd;
 }
 article.article .content {
   font-size: 1.25rem;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 3rem;
 }
 .footer {
+  padding-top: 2rem;
   padding-bottom: 3rem;
+  margin-top: 2rem;
 }
 .a2a_default_style {
   display: flex;
