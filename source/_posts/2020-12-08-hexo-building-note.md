@@ -1,7 +1,7 @@
 ---
-title: 使用 HEXO 架設部落格
+title: 使用 Hexo 架設部落格
 toc: true
-disqusId: some-disqus-id
+disqusId: 2020-12-08
 date: 2020-12-08 03:21:03
 categories:
   - 前端
@@ -15,11 +15,11 @@ tags:
 
 ## 前言
 
-此部落格是用 [HEXO](https://hexo.io/zh-tw/) 來架設，並佈署在 Github 上。
+此部落格是用 [Hexo](https://hexo.io/zh-tw/) 來架設，並佈署在 Github 上。
 主題我是使用了 [icarus](https://github.com/ppoffice/hexo-theme-icarus) 再自己寫 CSS 客製化 ，這個主題有中文文件，內容也相當完整。
 
 藉此文章將架設流程及常用指令記錄起來，以便快速查閱。
-想知道更多關於 HEXO 的介紹與教學，我在本文最後提供了相關資源供參考。
+想知道更多關於 Hexo 的介紹與教學，我在本文最後提供了相關資源供參考。
 
 
 <!-- more -->
@@ -54,7 +54,7 @@ $ npm install
 ```
 
 
-## HEXO 常用指令
+## Hexo 常用指令
 
 查詢 hexo 指令
 ```

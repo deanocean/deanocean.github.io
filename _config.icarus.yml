@@ -222,7 +222,7 @@ widgets:
         # Author title
         author_title: Web Designer & Front-end Developer
         # Author's current location
-        location: Kyoto, Japan
+        location: Osaka, Japan
         # URL or path to the avatar image
         avatar: 'img/avatar_mucha.png'
         # Whether show the rounded avatar image
